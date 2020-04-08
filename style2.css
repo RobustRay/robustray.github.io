@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Oxygen', sans-serif;
+    background: url("tlo.jpg")no-repeat;
+    background-size: cover;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-flow: row;
+    height: 120px;
+    background: white;
+}
+
+.logo{
+    margin-left: 100px;
+    text-decoration: none;
+    color: black;
+    font-size: 64px;
+    user-select: none;
+}
+
+.logo:hover{
+    transition: all 0.3s;
+    color: darkred;
+}
+
+.menu{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-right: 100px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.click{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.click:hover{
+    transition: all 0.3s;
+    color: #666;
+}
+
+li{
+    list-style: none;
+}
+
+article{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background: black;
+    height: 120px;
+    color: white;
+}
+
+.start{    
+    height: 745px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    background: url("tlo.jpg")no-repeat;    
+    background-size: cover;
+    background-position: center;
+}
+.start h1{
+    background: black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.oferta{
+    width: 100%;
+    height: 500px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.oferta1{
+    height: 1000px;
+}
+
+
+.oferta a h1{
+    position: relative;
+    left: 10%;
+    background: black;
+    padding: 15px;
+    font-size: 60px;
+    color: white;
+}
+
+.up{
+    text-decoration: none;
+    color: black;
+    font-size: 26px;
+    background: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.up:hover{
+    color: white;
+    background: black;
+    transition: all 0.3s;
+}
+
+
+.procesory{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+.columna1{
+    display: flex;
+    flex-flow: row;
+}
+
+.order1{
+    width: 380px;
+    text-align: center;
+    background: rgba(0,0,0,.1);
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+}
+
+.order1:hover{
+    border: 0;
+    transition: all 0.5s;
+    color: white;
+    background: rgba(0,0,0,.9);
+    transform: scale(105%);
+}
+
+.order1 img{
+    margin-top: 10px;
+    width: 350px;
+    height: 350px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+}
+
+input,select{
+    margin-bottom: 10px;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border: 0;
+    background: black;
+    color: white;
+}
+
+input[type=submit],input[type=reset]{
+    cursor: pointer;
+    background: darkgray;
+    height: 40px;
+
+}
+
+input[type=submit]:hover,input[type=reset]:hover{
+    background: gray;
+    transition: all 0.3s;
+    color: black;
+}
