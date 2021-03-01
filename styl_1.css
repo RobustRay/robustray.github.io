@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Verdana";
+}
+header, footer{
+    background-color: #4682b4;
+    color: #fff;
+    padding: 20px;
+    font-size: 120%;
+    text-align: center;
+}
+.lewy, .prawy{
+    height: 500px;
+    background-color: #40E0D0;
+}
+.lewy{
+    float: left;
+    width: 40%;
+}
+.prawy{
+    width: 60%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+img{
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #000080;
+    width: 550px;
+    height: 85%;
+}
+footer{
+    clear: both;
+}
